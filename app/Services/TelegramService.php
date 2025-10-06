@@ -8,22 +8,6 @@ use Illuminate\Support\Facades\Log;
 class TelegramService
 {
     private $groups = [
-        'forex' => [
-            'bot_token' => '1772449814:AAEV90dS7ws3-i0o-B41o2G9pr9EWr1Tx3s',
-            'chat_id' => '-1001374090428'
-        ],
-        'gold' => [
-            'bot_token' => '7574196466:AAFVlsLYYuhlMvkMJInDZI_13jiKsJ77Zl8',
-            'chat_id' => '-1002255436190'
-        ],
-        'bitcoin' => [
-            'bot_token' => '8044549822:AAFSS2k5HGFm4cDs26UX41jK1ZO-VZnz6bE',
-            'chat_id' => '-1002469209311'
-        ],
-        'forexPlus' => [
-            'bot_token' => '8186317731:AAGsMK5WafYIiTs7E0G0u9V7DP_u4J8GEZA',
-            'chat_id' => '-1002275712867'
-        ]
     ];
 
     public function generateInviteLink($groupKey)
