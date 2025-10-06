@@ -1,0 +1,1 @@
+add the email_subscribed field to the database : boolean, true

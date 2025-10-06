@@ -1,0 +1,38 @@
+First Database changes:
+add the email_subscribed field to the database : boolean, default true
+
+Second Change the User model:
+add the email_subscribed field to fillable array
+
+Create the unsubscribe Controller.
+
+Create the unsubscribe route.
+
+Copy all the new notifcation classes.
+
+Copy the translation files (notifcations.php)
+
+Copy the command email:send to include cheking for email_subscribed field.
+
+
+
+
+//testing:
+Update the SendDummyEmail command to send an email to a user with email_subscribed set to false, 
+change the id to the id of a another user.
+
+
+Test different languages.
+
+Test unsubscribe link.
+
+Update the .env file: smtp server, app_url.
+
+
+//remove the login notification from the listeners
+
+
+
+
+
+
